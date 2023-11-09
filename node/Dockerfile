@@ -1,6 +1,6 @@
 FROM node:16-buster
 
-WORKDIR /usr/src/app
+WORKDIR ./node:/node
 
 COPY . .
 
