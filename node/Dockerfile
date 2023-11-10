@@ -1,6 +1,6 @@
 FROM node:16-buster
 
-WORKDIR ./node:/node
+WORKDIR ./node.
 
 COPY . .
 
