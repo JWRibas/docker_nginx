@@ -9,8 +9,7 @@ services:
     networks:
       - nodenetwork
     volumes:
-      - ./node:/usr/src/app
-      
+      - ./node:/usr/src/app      
     tty: true
     depends_on:
       - db
