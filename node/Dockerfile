@@ -1,8 +1,8 @@
 FROM node:16-buster
 
-COPY .package*.json /usr/src/app/
+# COPY .package*.json /usr/src/app/
 
-RUN npm install
+# RUN npm install
 
 ENV DOCKERIZE_VERSION v0.7.0
 
